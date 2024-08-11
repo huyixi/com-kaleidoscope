@@ -1,17 +1,32 @@
 {
-  "name": "com-kaleidoscope",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
   "dependencies": {
-    "astro": "^4.13.3",
-    "@astrojs/check": "^0.9.2",
-    "typescript": "^5.5.4"
+    "@gsap/react": "^2.1.0",
+    "gsap-trial": "^3.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
